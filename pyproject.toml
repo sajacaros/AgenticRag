@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "agenticrag"
+version = "0.1.0"
+description = ""
+authors = ["sajacaros <sajacall82@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.24"
+langchain-community = "^0.3.22"
+langchain-openai = "^0.3.14"
+langgraph = "^0.3.34"
+python-dotenv = "^1.1.0"
+gradio = "^5.27.0"
+bs4 = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
