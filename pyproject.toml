@@ -14,6 +14,7 @@ langgraph = "^0.3.34"
 python-dotenv = "^1.1.0"
 gradio = "^5.27.0"
 bs4 = "^0.0.2"
+wikipedia = "^1.4.0"
 
 
 [build-system]
