@@ -8,13 +8,6 @@ from src.mcp import tavily_search, naver_blog_search
 # Create an MCP server
 mcp = FastMCP("Demo")
 
-
-# Add an addition tool
-@mcp.tool()
-async def add(a: int, b: int) -> int:
-    """Add two numbers"""
-    return a + b
-
 @mcp.tool()
 async def web_search(query: str) -> List[Dict]:
     """
